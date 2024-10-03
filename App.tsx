@@ -2,6 +2,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import React, {useEffect} from 'react';
 import SplashScreen from 'react-native-splash-screen';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import AnimatedLottieView from 'lottie-react-native';
 
 
 export default function App() {
@@ -14,7 +15,14 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>App</Text>
-      <Icon name="rocket" size={30} color="#00992b" />
+      <Icon name="rocket" size={30} color="#990033" />
+
+      <AnimatedLottieView
+        loop
+        autoPlay
+        source={require('./src/images/church.json')}
+        style={{height: 250, width: 250}}
+      />
 
     </View>
   );
