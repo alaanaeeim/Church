@@ -1,0 +1,65 @@
+# Node.js dependencies
+/node_modules/
+/npm-debug.log*
+/yarn-error.log*
+
+# macOS-specific files
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android files
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/.idea/
+/android/local.properties
+/android/.idea/*
+
+# iOS files
+/ios/Pods/
+/ios/build/
+/ios/DerivedData/
+/ios/*.xcworkspace
+/ios/.idea/
+/ios/*.lock
+
+# React Native specific files
+.expo/
+.expo-shared/
+
+# Fastlane
+/ios/fastlane/report.xml
+/android/fastlane/report.xml
+/fastlane/report.xml
+
+# Xcode
+*.xcuserstate
+
+# VSCode
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Test outputs
+/coverage/
+/jest/
+/dist/
+/build/
+
+# Android Signing Keys (if any)
+/android/app/release.keystore
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
