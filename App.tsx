@@ -1,6 +1,8 @@
 import {View, Text, StyleSheet} from 'react-native';
 import React, {useEffect} from 'react';
 import SplashScreen from 'react-native-splash-screen';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 
 export default function App() {
   useEffect(() => {
@@ -12,6 +14,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>App</Text>
+      <Icon name="rocket" size={30} color="#00992b" />
+
     </View>
   );
 }
