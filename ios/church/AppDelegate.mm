@@ -2,12 +2,13 @@
 
 #import <React/RCTBundleURLProvider.h>
 #import "RNSplashScreen.h"
-
+#import <Firebase.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [FIRApp configure];
   self.moduleName = @"church";
   self.initialProps = @{};
 

@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@npmcli/config": "^8.3.4",
+    "@react-native-firebase/app": "^21.0.0",
+    "@react-native-firebase/auth": "^21.0.0",
+    "@react-native-firebase/firestore": "^21.0.0",
+    "firebase": "^10.14.0",
     "lottie-react-native": "^7.0.0",
     "react": "18.3.1",
     "react-native": "0.75.3",
